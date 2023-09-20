@@ -237,7 +237,7 @@ header>i{
     .li1>a{
         text-decoration: none;
         color: brown;
-        font-size: 11px;
+        font-size: 8px;
     }
     header>i{
         float: right;
@@ -261,12 +261,9 @@ header>i{
         margin-top: 10px;
         border-radius: 10px;
     }
-
 }
 
-
-
-/* //////////////////// section1 */
+/* //////////////////// section-home */
 
 .home-content{
     padding-top: 80px;
@@ -348,7 +345,7 @@ header>i{
     
     }
 }
-/* ////////////// section2 ////////// */
+/* ////////////// section2-special orders ////////// */
 
 .sec2{
     height: 80vh;
@@ -470,13 +467,20 @@ header>i{
 }
 @media (max-width:576px){
     .sec2{
+        height: 180vh;
         max-width: 576px;
         margin-top: 0px;
+    }
+    .parent2{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-evenly;
+        align-items:center ;
     }
 }
 
 
-/* //////////////////////// section3 /////////////// */
+/* //////////////////////// section3-Drink /////////////// */
 
 .sec3{
     height: 80vh;
@@ -599,14 +603,70 @@ header>i{
     }
 }
 @media (max-width:576px){
+    .sec3{
+        height: 120vh;
+    }
     .parent3{
         max-width: 576px;
         overflow: hidden;
-
+    }
+    .parent3{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-items:flex-start ;
+    }
+    .sec3-1{
+        width: 350px;
+        height: 180px;
+        margin-top: 150px;
+    }
+    .h2-3{
+        margin: 8px 50px;
+        font-size: 25px;
+    }
+    
+    .h2-31{
+        line-height: 25px;
+        font-size: 20px;
+    }
+    .sec3-1>p{
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .sec3-2{
+        width: 130px;
+        height: 300px;
+        border: 1px solid black;
+        background-image: url(../images/7.jpg);
+        background-size: cover;
+        background-position: center;
+        transition: 1s;
+        margin-top: 50px;
+    }
+    .sec3-2:hover{
+        transform: scale(1.15,1.15);
+    }
+    .sec3-3{
+        width: 130px;
+        height: 300px;
+        border: 1px solid black;
+        background-image: url(../images/8.jpg);
+        background-size: cover;
+        transition: 1s;
+        margin-top: 50px;
+    }
+    .sec3-3:hover{
+        transform: scale(1.15,1.15);
+    }
+    .i3{
+        font-size: 30px;
+        position: absolute;
+        top: 10px;
     }
 }
 
-/* ////////////////////////// section4 ///////////// */
+/* ////////////////////////// section4-icons ///////////// */
 
 .parent3-1{
     display: flex;
@@ -742,7 +802,7 @@ header>i{
     }
 }
 
-/* /////////////////////// section5 /////////// */
+/* /////////////////////// section5-Best selllers /////////// */
 
 .hr2{
     border: 1px;
