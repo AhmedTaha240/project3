@@ -29,17 +29,8 @@ header>ul{
     display: inline;
 }
 .li0{
-    margin: 0px 8px;
     cursor: pointer;
 }
-.li00{
-    margin: 0px 20px;
-    cursor: pointer;
-}
-.li000{
-   cursor: pointer;
-}
-
 .li1{
     margin: 0px 15px;
     margin-top: 28px;
@@ -138,9 +129,8 @@ header>i{
     background-size: cover;
 }
 @media (max-width:991px) {
-
     .container1{
-    max-height: 50vh;
+    max-height: 55vh;
     }
     header>img{
         width: 60px;
@@ -190,18 +180,22 @@ header>i{
         border-width: 1px 0px;
     }
     .li1>.table1{
-        font-size: 10px;
-        width: 280px;
+        font-size: 14px;
+        width: 320px;
         border: 1px solid rgb(81, 46, 31);
         padding-top: 5px;
         padding-bottom: 5px;
         margin-top: 23px;
         border-radius: 10px;
     }
+    .li0{
+        cursor: pointer;
+    }
+
 }
 @media (max-width:576px) {
     .container1{
-        height: 40vh;
+        height: 50vh;
         max-width: 576px;
     }
     header>img{
@@ -216,7 +210,6 @@ header>i{
         width: 100%;
         height: 40px;
     }
-    
     .sec1{
         max-width: 580px;
         max-height: 250px;
@@ -237,7 +230,7 @@ header>i{
     .li1>a{
         text-decoration: none;
         color: brown;
-        font-size: 8px;
+        font-size: 7px;
     }
     header>i{
         float: right;
@@ -253,8 +246,8 @@ header>i{
         border-width: 1px 0px;
     }
     .li1>.table1{
-        font-size: 10px;
-        width: 280px;
+        font-size: 9px;
+        width: 180px;
         border: 1px solid rgb(81, 46, 31);
         padding-top: 5px;
         padding-bottom: 5px;
@@ -270,8 +263,6 @@ header>i{
     width: 700px;
     font-size: 30px;
     color: white;
-    margin: 50px 0px ;
-
 }
 .home-content-h2{
     text-align: center;
@@ -286,7 +277,7 @@ header>i{
     text-align: center;
     width: 200px;
     padding: 10px;
-    margin: 270px 250px 0;
+    margin: 290px 250px 0;
     font-size: 25px;
     border-radius: 20px;
     border: 0;
@@ -299,6 +290,9 @@ header>i{
     cursor: pointer;
 }
 @media (max-width:991px) {
+    .sec1{
+        height: 100vh;
+    }
     .home-content{
         max-width: 400px;
         margin: 20px 0px ;
@@ -308,7 +302,7 @@ header>i{
         font-size: 25px;
     }
     .cup1{
-        margin-top: 15px;
+        margin-top: 10px;
         font-size: 35px;
     }
     .btn1{
@@ -340,7 +334,7 @@ header>i{
     .btn1{
         width: 100px;
         padding: 5px;
-        margin: 100px 90px;
+        margin: 100px 90px 0;
         font-size: 14px;
     
     }
@@ -358,9 +352,8 @@ header>i{
 }
 .h22{
     text-align: center;
-    margin: 50px auto 0;
+    margin: 0px auto 0;
     font-size: 30px;
-    position: relative;
 }
 .hr1{
     border: 1px;
@@ -432,11 +425,14 @@ header>i{
     opacity: 1;
 }
 @media (max-width:991px){
-
+    .sec2{
+        height: 65vh;
+    }
     .parent2{
         flex-flow: row wrap;
     }
     .h22{
+        padding-top: 20px;
         font-size: 22px;
     }
     .hr1{
@@ -446,7 +442,7 @@ header>i{
         width: 250px;
     }
     .sec2-1{
-        width: 220px;
+        width: 180px;
         height: 280px;
         border: 1px solid black;
         margin-bottom: 10px;
@@ -467,7 +463,7 @@ header>i{
 }
 @media (max-width:576px){
     .sec2{
-        height: 180vh;
+        height: 230vh;
         max-width: 576px;
         margin-top: 0px;
     }
@@ -482,9 +478,6 @@ header>i{
 
 /* //////////////////////// section3-Drink /////////////// */
 
-.sec3{
-    height: 80vh;
-}
 .parent3{
     display: flex;
     flex-flow: row wrap;
@@ -544,19 +537,18 @@ header>i{
     top: 0;
 }
 @media (max-width:991px){
-    .sec3{
-        height: 80vh;
-    }
+ 
     .parent3{
         display: flex;
         flex-flow: row wrap;
         justify-content: space-evenly;
         align-items:flex-start ;
+        height: 50vh;
     }
     .sec3-1{
         width: 250px;
         height: 300px;
-        margin-top: 150px;
+        margin-top: 0px;
     }
     .h2-3{
         margin: 8px 50px;
@@ -572,26 +564,26 @@ header>i{
         margin-top: 20px;
     }
     .sec3-2{
-        width: 100px;
+        width: 150px;
         height: 300px;
         border: 1px solid black;
         background-image: url(../images/7.jpg);
         background-size: cover;
         background-position: center;
         transition: 1s;
-        margin-top: 150px;
+        margin-top: 0px;
     }
     .sec3-2:hover{
         transform: scale(1.15,1.15);
     }
     .sec3-3{
-        width: 100px;
+        width: 150px;
         height: 300px;
         border: 1px solid black;
         background-image: url(../images/8.jpg);
         background-size: cover;
         transition: 1s;
-        margin-top: 150px;
+        margin-top: 0px;
     }
     .sec3-3:hover{
         transform: scale(1.15,1.15);
@@ -603,23 +595,20 @@ header>i{
     }
 }
 @media (max-width:576px){
-    .sec3{
-        height: 120vh;
-    }
-    .parent3{
-        max-width: 576px;
-        overflow: hidden;
-    }
+
     .parent3{
         display: flex;
         flex-flow: row wrap;
         justify-content: space-evenly;
         align-items:flex-start ;
+        max-width: 576px;
+        overflow: hidden;
+        height: 110vh;
     }
     .sec3-1{
         width: 350px;
-        height: 180px;
-        margin-top: 150px;
+        height: 220px;
+        margin-top: 0px;
     }
     .h2-3{
         margin: 8px 50px;
@@ -673,10 +662,12 @@ header>i{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: flex-start;
+    border: 0px solid black;
+    height: 60vh;
+    padding-top: 100px;
 }
 .sec3-4{
     width: 350px;
-    margin-top: 50px;
     border-right: 3px solid black ;
 
 }
@@ -684,12 +675,13 @@ header>i{
     border-right: 0px solid black ;
 }
 .h25{
+    font-size: 26px;
     text-align: center;
     color:rgb(167, 75, 0) ;
 }
 .sec3-4>p{
     margin-left: 20px;
-    font-size: 20px;
+    font-size: 25px;
 }
 .icon{
     margin: 20px 40px;
@@ -750,13 +742,17 @@ header>i{
     background-position-y: -823.5px;
 }
 @media (max-width:991px){
+    .parent3-1{
+        height: 40vh;
+        padding-top: 10px;
+    }
     .h25{
         text-align:center;
-        font-size: 16px;
+        font-size: 20px;
     }
     .sec3-4>p{
         margin-left: 10px;
-        font-size: 11px;
+        font-size: 16px;
     }
     .sec3-4{
         border-right: 2px solid black ;
@@ -773,15 +769,16 @@ header>i{
     }
 }
 @media (max-width:576px) {
-    .sec3{
-        max-width: 576px;
-    }
+  
     .parent3-1{
+        height: 25vh;
         max-width: 576px;
+        padding-top: 0px;
+
     }
     .h25{
         text-align: center;
-        font-size: 13px;
+        font-size: 10px;
     }
     .sec3-4>p{
         margin-left: 5px;
@@ -821,7 +818,7 @@ header>i{
     grid-template-columns: auto auto auto  ;
 }
 .h24{
-    margin: 150px auto 0px;
+    margin: 0px auto 0px;
     text-align: center;
     font-size: 40px;
     color: rgb(94, 32, 32);
@@ -857,7 +854,6 @@ header>i{
 }
 .parent4:hover>.front1{
     transform: rotateY(180deg);
-    /* transition: 1s; */
 }
 .front1-overlay{
     border: 0px solid black;
@@ -887,7 +883,9 @@ header>i{
     line-height: 22px;
 }
 @media (max-width:991px){
-  
+    .container4{
+        height: 220vh;
+    }
     .hr2{
         width: 150px;
         margin: 10px auto 20px;
@@ -903,7 +901,7 @@ header>i{
         grid-template-columns: auto auto  ;
     }
     .h24{
-        margin: 220px 0px 0px;
+        margin: 10px 0px 0px;
         font-size: 30px;
     }
     .sec4>h2{
@@ -944,9 +942,11 @@ header>i{
 @media (max-width:576px) {
     .container4{
         max-width: 576px;
+        height: 450vh;
+
     }
     .h24{
-        margin: 150px 0px 0px;
+        margin: 0px 0px 0px;
         font-size: 30px;
         text-align: center;
     }
